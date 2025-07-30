@@ -1,0 +1,22 @@
+a=int(input("Enter the first integer."))
+b=int(input("Enter the second int:"))
+quo=a/b
+rem=a%b
+floor=a//b
+print(quo)
+print(rem)
+print(floor)
+
+
+output_1:
+Enter the first integer.4
+Enter the second int:8
+0.5
+4
+0
+output_2:
+Enter the first integer.8
+Enter the second int:4
+2.0
+0
+2
