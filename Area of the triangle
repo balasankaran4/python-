@@ -1,0 +1,4 @@
+base=float(input("enter base"))
+hight=float(input("enter hight"))
+area=0.5*base*hight
+print("\nThe area of the triangle ",area)
