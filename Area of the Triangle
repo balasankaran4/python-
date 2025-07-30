@@ -1,0 +1,5 @@
+a=float(input("enter the first side of the triangle "))
+b=float(input("enter the seconds side of the triangle "))
+c=float(input("enter the third side of the triangle "))
+Area=a+b+c
+print("\nThe area of the Trinagle",Area)
