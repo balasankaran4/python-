@@ -1,0 +1,26 @@
+a=int(input("Enter the first integer."))
+b=int(input("Enter the second int:"))
+power=a**b
+abs=abs(a-b)
+max=max(a,b)
+min=min(a,b)
+print(power)
+print(abs)
+print(max)
+print(min)
+
+TEST CASE 1:
+Enter the first integer.8
+Enter the second int:4
+4096
+4
+8
+4
+
+TEST CASE 2: 
+Enter the first integer.18
+Enter the second int:9
+198359290368
+9
+18
+9
