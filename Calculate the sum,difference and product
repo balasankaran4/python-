@@ -1,0 +1,16 @@
+a=int(input("Enter the first integer."))
+b=int(input("Enter the second int:"))
+sum=a+b
+diff=a-b
+pro=a*b
+print(sum)
+print(diff)
+print(pro)
+
+OUTPUT:
+Enter the first integer.1
+Enter the second int:3
+4
+-2
+3
+
