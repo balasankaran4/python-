@@ -1,0 +1,25 @@
+import numpy as np
+matrix1=np.array([[1,3],[2,4]])
+matrix2=np.array([[3,5],[4,6]])
+add=matrix1+matrix2
+sub=matrix1-matrix2
+multiply=matrix1*matrix2
+product=np.dot(matrix1,matrix2)
+trans1=np.transpose(matrix1)
+trans2=np.transpose(matrix2)
+invers1=np.linalg.inv(matrix1)
+invers2=np.linalg.inv(matrix2)
+dete1=np.linalg.det(matrix1)
+dete2=np.linalg.det(matrix2)
+print("Matrix 1:\n",matrix1)
+print("Matrix 2:\n",matrix2)
+print("Matrix Addition:\n",add)
+print("Matrix subraction:\n",sub)
+print("Matrix Element-wise multiplication:\n",multiply)
+print("Matrix Multiplication:\n",product)
+print("Transpose Matrix 1:\n",trans1)
+print("Transpose Matrix 2:\n",trans2)
+print("Determinante of Matrix 1:\n",dete1)
+print("Determinante of Matrix 2:\n",dete2)
+print("Inverse of Matrix 1:\n",invers1)
+print("Inverse of Matrix 2:\n",invers2)
