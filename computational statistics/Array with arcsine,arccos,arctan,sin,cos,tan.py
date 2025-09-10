@@ -1,0 +1,18 @@
+import numpy as np 
+angles1=np.array([0,np.pi/6,np.pi/4,np.pi/3,np.pi/2])
+sine=np.sin(angles1)
+angles2=np.array([2,np.pi/6,np.pi/4,np.pi/3,np.pi/2])
+cosine=np.cos(angles2)
+angles3=np.array([1,np.pi/6,np.pi/4,np.pi/3,np.pi/2])
+tangent=np.tan(angles3)
+value=np.array([0,0.5,1])
+arcsin=np.arcsin(value)
+arccos=np.arccos(value)
+arctan=np.arctan(value)
+print("Scine Value of the array:\n",sine)
+print("cosin Value of the array:\n",cosine)
+print("Tangent Value of the array:\n",tangent)
+print("Arcsine Value of the array:\n",arcsin)
+print("Arcos Value of the array:\n",arccos)
+print("Arctangent Value of the array:\n",arctan)
+
