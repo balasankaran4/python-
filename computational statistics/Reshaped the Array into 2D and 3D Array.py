@@ -1,0 +1,11 @@
+ import numpy as np
+arr = np.arange(1,17)
+print("Array:",arr)
+reshaped=arr.reshape(4,4)
+print("Reshaped 2D Array:\n",reshaped)
+flattened=reshaped.flatten()
+print("Flattened the 3D Array:\n",flattened)
+reshaped=arr.reshape(2,4,2)
+print("Reshaped 3D Array:\n",reshaped)
+flattened=reshaped.flatten()
+print("Flattened the 3D Array:\n",flattened)
