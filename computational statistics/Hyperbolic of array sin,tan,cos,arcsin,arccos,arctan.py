@@ -1,0 +1,18 @@
+import numpy as np
+value=np.array([1,3,5,7])
+sinH=np.sinh(value)
+cosH=np.cosh(value)
+tanH=np.tanh(value)
+sinh=np.array([1,2,3])
+cosh=np.array([1,3,5])
+tanh=np.array([0,0.5,0.8])
+arcsinh=np.arcsinh(sinh)
+arccosh=np.arccosh(cosh)
+arctanh=np.arctanh(tanh)
+print("Hyperbolic Sine of Array:\n",sinH)
+print("Hyperbolic Cosine of Array:\n",cosH)
+print("Hyperbolic Tangent of Array:\n",tanH)
+print("Hyperbolic Arcsine of Array:\n",arcsinh)
+print("Hyperbolic Arccosine of Array:\n",arccosh)
+print("Hyperbolic Arctangent of Array:\n",arctanh)
+
