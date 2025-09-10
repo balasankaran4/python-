@@ -1,0 +1,10 @@
+import numpy as np
+arr1=np.array([1,2,3,4,5])
+expo=np.exp(arr1)
+arr2=np.array([1,1.2,1.33,1.554,2.55])
+log=np.log(arr2)
+arr3=np.array([1,10,1000,10000])
+log10=np.log10(arr3)
+print("Exponantional:\n",arr1)
+print("Logaritham:\n",log)
+print("Base-10 Logarithum:\n",log10)
